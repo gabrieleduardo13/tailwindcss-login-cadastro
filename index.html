@@ -20,9 +20,9 @@
         <h2 class="font-bold">Email</h2>
         <input type="email" placeholder="Voce@email.com" class="border border-gray-300 p-2 rounded">
         <h2 class="font-bold">Senha</h2>
-        <input type="password" placeholder="*******" class="border border-gray-300 p-2 rounded">
+       <input type="password" placeholder="*******" class="border border-gray-300 p-2 rounded" minlength="6" pattern="(?=.*[A-Z])(?=.*[a-z]).{6,}" title="A senha deve ter no mínimo 6 caracteres, incluindo pelo menos uma letra maiúscula e uma minúscula" required>
         <button type="submit" class="bg-black text-white p-2 rounded hover:bg-gray-800">Cadastrar</button>
-        <h3 class="text-center text-sm text-gray-500">Já tem conta? <a href="#" class="font-bold text-black hover:underline ">Entrar</a></h3>
+        <h3 class="text-center text-sm text-gray-500">Já tem conta? <a href="login.html" class="font-bold text-black hover:underline">Entrar</a>
     </form>
 </div>
 
